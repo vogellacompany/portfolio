@@ -74,12 +74,6 @@ Run Maven 3.x.x:
 mvn -f portfolio-app/pom.xml clean verify
 ```
 
-Note, under **Windows** the maven-enforcer plugin (used in ./portfolio-app/pom.xml) has an issue with `${project.basedir}`, so you need skip it like
-
-```
-mvn -f portfolio-app\pom.xml -Denforcer.skip=true clean verify
-```
-
 ## License
 
 Eclipse Public License
